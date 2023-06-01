@@ -1,0 +1,151 @@
+table,tr,td{
+    border: 0px solid rgb(3, 238, 15);
+    border-collapse: collapse;
+    left: 0px;
+    margin-top: 10px;
+}
+body{
+    background-image: url(4K.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.pp{
+    border-radius: 5px;
+    width: 200px;
+    height: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 70px;
+    outline: none;
+}
+.date{
+    padding-left: 20px;
+}
+.pol{
+    margin-left: 100px;
+}
+.submit{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    margin-left: 150px;
+    text-align: center;
+    font-style: italic;
+    font-weight: bolder;
+    background-color: antiquewhite;
+}
+.submit:hover{
+    background-color: bisque;
+}
+fieldset{
+    position: absolute;
+    width: 350px;
+    height: 550px;
+    background-color: transparent;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px 10px #222122;
+    top: 150px;
+    left: 950px;
+}
+/* form{
+    position: absolute;
+    width: 350px;
+    height: 550px;
+    border-radius: 15px;
+    background-color: transparent;
+    left: 950px;
+    top: 150px;
+}
+form:hover{
+    width: 355px;
+    height: 555px;
+    
+} */
+.bn{
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    background-color: aliceblue;
+}
+h1{
+    padding-left: 160px;
+    color: burlywood;
+}
+h4{
+    position: absolute;
+    top: 250px;
+    font-size: 40px;
+    color: rgb(8, 66, 238);
+    font-family: Arial;
+}
+.sod{
+    position: absolute;
+    top: 130px;
+    left: 0px;
+    width: 748px;
+    height: 599px;
+}
+
+.gender{
+    margin-left: 50px;
+}
+.img{
+    width: 130px;
+    height: 130px;
+    top: 0px;
+}
+.img:hover{
+    width: 132px;
+    height: 132px;
+}
+.other{
+    width: 500px;
+    height: 400px;
+}
+.h4{
+    position: absolute;
+    padding-left: 30px;
+    font-size: 80px;
+    width: 100px;
+    height: 100px;
+
+}
+.head{
+    position: absolute;
+    background-color: antiquewhite;
+    width: 1350px;
+    height: 130px; 
+    top: 0px;
+    left: 0px;
+}
+p{
+    position: absolute;
+    font-weight: bolder;
+    justify-content: center;
+    top: 0px;
+    left: 150px;
+    font-size: 40px;
+
+}
+label{
+    padding-left: 20px;
+}
+footer{
+    position: absolute;
+    width: 1340px;
+    background-color: black;
+    color: white;
+    top: 730px;
+    left: -10px;
+    padding: 10px;
+  }
+  .footer-column{
+    position: absolute;
+    top: 10px;
+    left: 600px;
+  }
+  .footer-colu{
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+  }

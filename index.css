@@ -1,0 +1,136 @@
+h1{
+    position: absolute;
+    color: rgb(78, 80, 81);
+    font-size: 35px;
+    left: 150px;
+    top: 10px;
+}
+span{
+    color: greenyellow;
+}
+body{
+    position: absolute;
+    background-image: url(4K.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    
+}
+fieldset{
+    position: absolute;
+    width: 230px;
+    height: 300px;
+    background-color: transparent;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px 10px #222122;
+    top: 200px;
+    left: 950px;
+
+    
+}
+fieldset:hover{
+        transform: scale(1.1);
+}
+
+.ab{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color: rgb(27, 90, 218);
+    left: 290px;
+    top:200px;
+
+}
+.mar{
+    color: greenyellow;
+    
+}
+.input{
+    display: block;
+    outline: none;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+    border: none;
+    text-align: center;
+    
+    
+}
+.rg{
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    color: rgb(5, 248, 17);
+    background-color: blueviolet;
+    border-color: blueviolet;
+    font-weight: bold;
+    
+    
+}
+.rg:hover{
+    background-color: purple;
+    border-color: purple;
+}
+.gg{
+        text-decoration: none;
+        font-size: large;
+        text-align: center;
+        padding-left: 50px;   
+}
+.gg:hover{
+    font-weight: bold;
+    
+}
+.f:hover{
+    color: rgb(147, 235, 16);
+    font-size: 20px;
+}
+.div{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background-color: rgb(108, 139, 219);
+    width: 1368px;
+    height: 125px;
+
+    
+}
+label{
+    position: absolute;
+    left: 50px;
+    
+}
+.wq{
+    position: absolute;
+    width: 500px;
+    height: 540px;
+    top: 115px;
+    left: -10px;
+}
+.as{
+    position: absolute;
+    padding-top: 115px;
+    padding-left: 0px;
+    display: flex;
+    margin-left: 0px;
+    width: 1000px;
+}
+footer{
+    position: absolute;
+    width: 1350px;
+    background-color: black;
+    color: white;
+    top: 600px;
+    left: -10px;
+    padding: 10px;
+  }
+  .footer-column{
+    position: absolute;
+    top: 10px;
+    left: 600px;
+  }
+  .footer-colu{
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+  }

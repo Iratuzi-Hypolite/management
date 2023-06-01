@@ -1,0 +1,270 @@
+body{
+    /* list of workers */
+
+
+    position: absolute;
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+.as{
+    position: absolute;
+    background-color: #4593b8;
+    border-radius: 0px 0px 900% 0px;
+    top: 170px;
+    left: -10px;
+    height: 650px;
+    width: 1350px;
+    
+}
+.dd{
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    height: 180px;
+    width: 1350px;
+    background-color: #4593b8;
+}
+.peo{
+    width: 50px;
+    height: 50px;
+    border-radius: 30px;
+    
+} 
+ul{
+    padding: 0px;
+    margin-left: 0px;
+    list-style: none;
+    
+}
+.ads{
+    position: absolute;
+    top: 225px;
+    left: 950px;
+}
+ul li{
+    float: left;
+    width: 341px;
+    height: 50px;
+    /* background-color: black; 
+    opacity: .7; */
+    line-height: 20px;
+    text-align: center;
+    font-size: 30px;
+}
+ul li a{
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    display: block;
+    top: 30px;
+    left: 70px;
+    
+}
+ul li a:hover{
+    color: white;
+
+}
+ul li ul li{
+    display: none;
+}
+ul li:hover ul li{
+    display: block;
+}
+.log{
+    /* ESTGLOGO */
+
+
+position: absolute;
+width: 200px;
+height: 200px;
+top: -10px;
+left: -10px;
+
+
+}
+label{
+    /* ESTG TEVT/TSS */
+    
+position: absolute;
+width: 700px;
+height: 50px;
+left: 300px;
+top: 20px;
+font-style: normal;
+font-weight: 600px;
+font-size: 96px;
+color: #222526;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+a{
+    width: 00px;
+    height: 30px;
+    color: greenyellow;
+    text-decoration: none;
+    font-size: larger;
+    font-weight: bold;
+    line-height: 116px;
+    padding-left: 20px;
+}
+a:hover{
+    color: chartreuse;
+    text-decoration: none;
+}
+.ft{
+    position: absolute;
+    width: 545px;
+    height: 450px;
+    top: 150px;
+    left: 5px;
+    border-radius: 5px;
+    
+}
+h3{
+    position: absolute;
+    color: rgba(0, 0, 0, 0.867);
+    font-weight: bolder;
+    line-height: 30px;
+    padding-left: 70px;
+    left: 500px;
+    top: 150px;
+}
+.fuck{
+    position: absolute;
+    top: 400px;
+    left: 550px;
+    width: 800px;
+    height: 670px;
+    border-radius: 15px 15px 15px -10px;
+}
+.you{
+    position: absolute;
+    top: 600px;
+    left: 0px;
+    width: 550px;
+    border-radius: 5px;
+    height: 470px;
+
+}
+.gira{
+    position: absolute;
+    width: 500px;
+    margin-top: 400px;
+}
+.gxr{
+    position: absolute;
+    top: 1150px;
+    left: 0px;
+    width: 1350px;
+}
+.wor{
+    position: absolute;
+    top: 1080px;
+    left: 160px;
+    font-size: 58px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #4593b8;
+}
+/* .bn{
+    background-color: gray;
+    position: absolute;
+    width: 1350px;
+    height: 280px;
+    top: 1800px;
+    left: -10px;
+} */
+
+
+ /* footer {
+    background-color: #f9f9f9;
+    padding: 40px 0;
+  }
+  
+  .footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .footer-column {
+    flex: 1 1 300px;
+    margin-bottom: 30px;
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  .footer-column p,
+  .footer-column ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul li a {
+    color: #555;
+    text-decoration: none;
+  }
+  
+  .footer-bottom {
+    background-color: #eee;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .footer-bottom p {
+    margin: 0;
+    font-size: 14px;
+    color: #888;
+  }
+  
+  .social-icons {
+    display: flex;
+    margin-top: 10px;
+  }
+  
+  .social-icons li {
+    margin-right: 10px;
+  }
+  
+  .social-icons li a {
+    color: #555;
+    font-size: 18px;
+    text-decoration: none;
+  }
+  
+  .social-icons li a img{
+    width: 50px;
+    height: 50px;
+  } */
+  footer{
+    position: absolute;
+    width: 1330px;
+    background-color: black;
+    color: white;
+    top: 2065px;
+    left: -10px;
+    padding: 10px;
+  }
+  .footer-column{
+    position: absolute;
+    top: 10px;
+    left: 600px;
+  }
+  .footer-colu{
+    position: absolute;
+    top: 10px;
+    left: 1000px;
+  }
