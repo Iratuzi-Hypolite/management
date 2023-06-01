@@ -1,0 +1,71 @@
+body{
+    background-color: skyblue;
+}
+span{
+    color: greenyellow;
+}
+a{
+    color: blanchedalmond;
+    text-decoration: none;
+    position: absolute;
+    top: 140px;
+}
+a:hover{
+    color: cyan;
+}
+p{
+    color: aquamarine;
+}
+h5{
+    color: aquamarine;
+}
+.div{
+    position: absolute;
+    background-color: beige;
+    top: 0px;
+    left: 0px;
+    width: 1365px;
+    height: 123px;
+}
+.as{
+    position: absolute;
+    top: 20px;
+    left: 150px;
+
+}
+.hom{
+    position: absolute;
+    left: 180px;
+    top: 140px;
+}
+.service{
+    position: absolute;
+    left: 500px;
+    top: 140px;
+}
+.help{
+    position: absolute;
+    left: 880px;
+    top: 140px;
+}
+.gege{
+    position: absolute;
+    top: 200px;
+    left: 0px;
+    width: 800px;
+}
+.mn{
+    position: absolute;
+    width: 565px;
+    height: 450px;
+    left: 800px;
+    top: 200px;
+}
+/* .hom{
+    position: absolute;
+    left: 70px;
+}
+.hom{
+    position: absolute;
+    left: 70px;
+} */

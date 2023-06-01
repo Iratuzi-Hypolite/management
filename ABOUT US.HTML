@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<style>
+    *{
+        margin: 0;
+        font-family: sans-serif;
+    }
+    body{
+        background: #fff;
+    }
+    ul{
+        background:rgb(231, 226, 226) ;
+        padding-top: -12px;
+        padding-bottom: 12px;
+    }
+    ul li{
+        display: inline-block;
+        width: 100px;
+
+    }
+    ul li a{
+        font-size: 30px;
+        text-decoration: none;
+        color: #000;
+    }
+    ul li a:hover{
+        color: rgb(3, 61, 119);
+        cursor: pointer;
+    }
+    img{
+        padding: 0;
+    }
+    .text{
+        float: left;
+        color: white
+    }
+    div.misssion{
+        font-style: normal;
+        font-weight: bolder;
+        color: #fff;
+    } 
+    
+    button{
+        font-weight: lighter;
+        font-size: 30px;
+        padding-top: 7px;
+        padding-bottom: 7px;
+        width: 250px;
+        background-color: rgb(28, 92, 211);
+        border-radius: 25px;
+        border: none;
+    }
+    button:hover{
+        background-color: rgb(3, 61, 119);
+        font-size: 35px;
+        cursor: pointer;
+    }
+    #about{
+        color: rgb(3, 61, 119);
+        text-decoration: underline;
+    }
+    h3{
+        color: #000;
+        float: right;
+    }
+    h4{
+        color: #000;
+        float: right;
+        min-height: 120vh;
+        top: 40%;
+    }
+    .police{
+      
+        width: 660px;
+        padding: 20px;
+        border-radius: 10px;
+        height: 40px;
+        text-align: right;
+    }
+    /* .police:hover{
+        transform: scale(1.1);
+
+    } */
+    .log{
+        position: absolute;
+        width: 130px;
+        height: 125px;
+    }
+    .rwanda{
+  
+        width: 660px;
+        padding: 20px;
+        border-radius: 10px;
+        height: 40px;
+        text-align: right;
+        position: absolute;
+
+    }
+    /* .rwanda:hover{
+        transform: scale(1.1);
+
+    } */
+    .national{
+  
+        width: 660px;
+        padding: 20px;
+        border-radius: 10px;
+        height: 40px;
+        top: 365px;
+        text-align: right;
+        position: absolute;
+        
+    }
+    /* .national:hover{
+        transform: scale(1.1);
+
+    } */
+
+    fieldset{
+        width: 450px;
+        padding: 30px;
+        position: fixed;
+        transform: translate(-50%,-50%);
+        top: 50%;
+        left: 50%;
+        border: none;
+    
+    }
+    img{
+        width: 150px;
+        height: 150px;
+        
+    }
+    .link{
+        text-decoration: none;
+        position: absolute;
+        top: 468px;
+        left: 300px;
+    }
+    .abc{
+        text-decoration: none;
+        color: #000;
+    }
+    .bac{
+        text-decoration: none;
+        color: #000;
+    }
+    
+    .cab{
+        text-decoration: none;
+        color: #000;
+    }
+    .div{
+    position: absolute;
+    background-color: beige;
+    top: 0px;
+    left: 0px;
+    width: 1365px;
+    height: 123px;
+}
+.as{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+
+}
+.df{
+    position: absolute;
+    top: 150px;
+    left: -230px;
+}
+.im{
+    position: relative;
+    width: 150px;
+    height: 100px;
+    top: 90px;
+    left: -75px;
+}
+.po{
+    position: absolute;
+    top: 255px;
+    left: -35px;
+    width: 120px;
+    height: 70px;
+}
+.pol{
+    position: absolute;
+    top: 355px;
+    left: -45px;
+    width: 100px;
+    height: 95px;
+}
+.lin{
+    position: absolute;
+    top: 123px;
+    font-weight: bolder;
+    font-size: 40px;
+    background-color: black;
+    opacity: .7;
+    width: 1366px;
+    height: 60px;
+    text-align: center;
+}
+.sws{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    opacity: .7;
+    display: block;
+    width: 455px;
+    height: 60px;
+}
+.sws:hover{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    display: block;
+    width: 455px;
+    height: 60px;
+}
+.kl{
+    position: absolute;
+    top: 465px;
+}
+.ser{
+    position: absolute;
+    top: 0px;
+    left: 455px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    opacity: .7;
+    display: block;
+    width: 455px;
+    height: 60px;
+}
+.ser:hover{
+    position: absolute;
+    top: 0px;
+    left: 455px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    opacity: .7;
+    display: block;
+    width: 455px;
+    height: 60px;
+}
+.hel{
+    position: absolute;
+    top: 0px;
+    left: 910px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    opacity: .7;
+    display: block;
+    width: 455px;
+    height: 60px;
+}
+.hel:hover{
+    position: absolute;
+    top: 0px;
+    left: 910px;
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    opacity: .7;
+    display: block;
+    width: 455px;
+    height: 60px;
+}
+
+
+</style>
+<html lang="en">
+<head>
+    <title>ESTG TSS</title>
+    <link rel="icon" href="ESTGLOGO.JPG">
+</head>
+
+<body>
+    
+    <div class="div"><img src="ESTGLOGO.JPG" alt="" class="log">
+        <center><h1 class="as">ECOLE SECONDAIRE TECHNIQUE DE GISENYI<span> 'S </span>WEBSITE</h1></center>
+    </div>
+    <div class="lin">
+    <a href="list table.html" class="sws">HOME</a>
+    <a href="services.html" class="ser">SERVICE</a>
+    <a href="help.html" class="hel">HELP</a>
+</div>
+    <fieldset>
+    <p><i class="df"><b><big> you can find us on:</b></i></p></big><br>
+    <a href="https//:www.facebook.com/RwandaNationalPolice" class="abc"><img src="facebook.png" alt="" class="im"><h1 class="national">Ecole Secondaire Technique De Gisenyi</h1></a><br>
+    <a href="https//:www.instagram.com/RwandaNationalPolice" class="bac"><img src="5k.png" alt="" class="po"><h1 class="police">Ecole Secondaire Technique De Gisenyi</h1></a><br>
+    <a href="https//:www.twitter.com/RwandaNationalPolice" class="cab"><img src="9k.png" alt="" class="pol"><h1 class="rwanda">Ecole Secondaire Technique De Gisenyi</h1></a><br>
+   <br><p><big> </p><i><b  class="kl"> Or contact us on whatsapp:</b></big>
+    <a href="https//:www.whatsapp.com" class="link"> +250 789119350</a></i></p>
+</fieldset>
+    <!-- <h3>we can give access to our officersanytime they need help</h3>
+    <h4>for more information you can find us on:</h4> -->
+</body>
+</html>
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="ESTGLOGO.JPG">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="about us.css">
+</head>
+<body>
+    <div class="div"><img src="ESTGLOGO.JPG" alt="" class="log">
+        <center><h1 class="as">ECOLE SECONDAIRE TECHNIQUE DE GISENYI<span> 'S </span>WEBSITE</h1></center>
+    </div>
+    <center><strong><h1><a href="list table.html" class="hom">HOME</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="services.html" class="service">SERVICES</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="BOOKS.HTML" class="">BOOKS</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; -->
+        <!-- <a href="help.html" class="help">HELPS</a> -->
+        <!-- <a href="photo.html" class="">PHOTOS</a> -->
+    <!-- </h1></strong></center>
+    <video src="gege.mp4" autoplay muted class="gege"></video>
+    <img src="sod.png" class="mn" alt="">
+    
+    <p>
+        whatsapp Number : 0783746189
+        Facebook Name: Estg on the top
+    </p>
+
+   
+        
+</body>
+</html> --> 
